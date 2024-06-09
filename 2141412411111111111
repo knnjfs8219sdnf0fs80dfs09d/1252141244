@@ -3,7 +3,7 @@
 -- Create ScreenGui
 local ScreenGui = Instance.new("ScreenGui")
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling -- Ensure ScreenGui is on top of other elements
+ScreenGui.ZIndex = 10 -- Set a high ZIndex value to ensure it's on top
 
 -- Create Frame
 local frame = Instance.new("Frame")
